@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media (max-width: $bp-md) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: $font-primary;
+    line-height: 1.6;
+    color: $color-heading;
+    font-size: 1.5rem;
+    overflow-x: hidden;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.section__heading-blue {
+    color: $very-dark-blue;
+}
+
+.section__heading-orange {
+    color: $color-orange;
+}
+
+.section__heading {
+    padding: 10rem 1.5rem 3rem;
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.slide-1 {
+    background-color: $very-dark-blue;
+    flex-basis: 40%;
+}
+
+.slide-2 {
+    background-color: $dark-blue;
+    flex-basis: 60%;
+}
+
+.flex {
+    display: flex;
+}

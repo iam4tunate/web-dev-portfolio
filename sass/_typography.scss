@@ -1,0 +1,27 @@
+@font-face {
+    font-family: SigmarOne;
+    src: url(../fonts/SigmarOne.ttf);
+}
+
+h2 {
+    font-family: poppins;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    color: $color-white;
+    font-weight: 500;
+}
+
+p {
+    line-height: 1.9;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+p.para-white {
+    color: $color-white;
+}
+
+p.para-blue {
+    color: $color-text;
+}

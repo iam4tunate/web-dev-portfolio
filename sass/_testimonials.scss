@@ -1,0 +1,67 @@
+.testimonial {
+    padding: 0 6rem 0;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 5rem;
+    background-color: #f8f9fa;
+
+    @media (max-width: $bp-xs) {
+        padding: 0 4rem;
+    }
+
+    &__icon {
+        height: 4rem;
+        width: 4rem;
+        margin-bottom: 2rem;
+
+        @media (max-width: $bp-xs) {
+            height: 3rem;
+            width: 3rem;
+        }
+    }
+
+    &__card {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        background-color: $color-white;
+        box-shadow: $shadow;
+        padding: 4.5rem 3.5rem;
+        border-radius: 20px;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+
+        &-title {
+            font-size: 2.2rem;
+            font-weight: 400;
+            padding-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        &-hr {
+            color: #c5ced8;
+            width: 90%;
+            margin: 3rem 0 1rem;
+        }
+
+        &-details {
+            display: flex;
+            align-items: center;
+            padding-top: 2rem;
+
+            h5 {
+                font-weight: 700;
+            }
+
+            img {
+                border-radius: 100px;
+                height: 5rem;
+                width: 5rem;
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}

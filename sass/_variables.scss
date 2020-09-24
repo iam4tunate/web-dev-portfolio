@@ -1,0 +1,31 @@
+//! COLORS
+$color-text: #000;
+$color-red: #ec4d37;
+$very-dark-blue: #021D43;
+$dark-blue: #092349;
+$color-orange: #ec4d37;
+$color-white: #F7F7F7;
+$color-heading: #333333;
+
+//* FONTS
+$font-primary: poppins;
+
+//! BREAKPOINTS
+$bp-xs: 575px;
+$bp-sm: 767px;
+$bp-md: 991px;
+
+
+$shadow: 0px 11px 15px 1px rgba(58, 52, 82, 0.1);
+
+.hide-for-mobile {
+    @media (max-width: $bp-md) {
+        display: none;
+    }
+}
+
+.hide-for-desktop {
+    @media (min-width: $bp-md) {
+        display: none;
+    }
+}
